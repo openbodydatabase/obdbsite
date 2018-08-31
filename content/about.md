@@ -10,6 +10,6 @@ The Open Body Database is an open-source platform for distributing human body da
 This is an initiative by [Datable Studio](https://datable.net).
 
 <script>
-ga('set', 'page', '/#about');
+ga('set', 'page', '/#about.html');
 ga('send', 'pageview');
 </script>
