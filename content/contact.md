@@ -16,16 +16,16 @@ draft = false
 		<li><input type="submit" value="Send message" class="special" /></li>
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
-	<input type="hidden" name="_next" value="?sent#formspree" />
-	<input type="hidden" name="_subject" value="Subject for your mail like new message" />
+	<input type="hidden" name="_next" value="#thankyou" />
+	<input type="hidden" name="_subject" value="Contact form entry" />
 	<input type="text" name="_gotcha" style="display:none" />
 </form>
-<span id="contactformsent">Thank you for your message</span>
+<span id="contact sent">Thank you for your message</span>
 
 <script>
 $(document).ready(function($) {
     $(function(){
-        if (window.location.search == "?sent") {
+        if (window.location.search == "#thankyou") {
         	$('#contactform').hide();
         	$('#contactformsent').show();
         } else {
