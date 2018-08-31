@@ -1,0 +1,49 @@
+baseurl = "http://example.org"
+title = "Open Body Database"
+theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
+
+[params]
+  description = '<!--[-->Human body data for design and research.<!--]--><br />'
+  logoimage = "/images/people.svg"
+  copyright = "Datable LLC / Datable Studio S.L."
+  copyrightURL = "https://datable.net"
+
+#[[params.social]]
+#  medium = "twitter"
+#  icon = "twitter"
+#  link = "data_able"
+
+#[[params.social]]
+#  medium = "facebook"
+#  icon = "facebook"
+#  link = "#"
+
+#[[params.social]]
+#  medium = "instagram"
+#  icon = "instagram"
+#  link = "data_able"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/openbodydb"
+
+[[params.social]]
+  medium = "email"
+  icon = "envelope"
+  link = "mailto:contact@obdb.org"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+
+[languages.de]
+languageName = "Deutsch"
+weight = 2
+title = "Dimension"
+description = '<!--[-->Human body data for design and research.<!--]--><br />'
