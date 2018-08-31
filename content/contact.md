@@ -22,6 +22,9 @@ draft = false
 </form>
 
 <script>
+ga('set', 'page', '/#contact');
+ga('send', 'pageview');
+
 $(document).ready(function($) {
     $(function(){
         if (window.location.search == "#thankyou") {
@@ -32,4 +35,8 @@ $(document).ready(function($) {
         }
     });
 });
+
+
+
+
 </script>
