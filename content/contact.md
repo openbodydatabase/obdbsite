@@ -1,7 +1,7 @@
 +++
 title = "Subscribe for updates"
-weight = 60
 menuname = "Subscribe"
+weight = 60
 draft = false
 +++
 
@@ -16,7 +16,7 @@ draft = false
 		<li><input type="submit" value="Send message" class="special" /></li>
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
-	<input type="hidden" name="_next" value="#contact" />
+	<input type="hidden" name="_next" value="#thankyou" />
 	<input type="hidden" name="_subject" value="Contact form entry" />
 	<input type="text" name="_gotcha" style="display:none" />
 </form>
@@ -24,7 +24,7 @@ draft = false
 <script>
 $(document).ready(function($) {
     $(function(){
-        if (window.location.search == "#contact") {
+        if (window.location.search == "#thankyou") {
         	$('#contactform').hide();
         	$('#contactformsent').show();
         } else {
