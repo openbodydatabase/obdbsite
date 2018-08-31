@@ -6,6 +6,8 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 disableKinds=["RSS"]
 
+googleAnalytics = "UA-35839414-3"
+
 [params]
   description = '<!--[-->Human body data for design and research.<!--]--><br />'
   logoimage = "/images/people.svg"
@@ -39,11 +41,11 @@ disableKinds=["RSS"]
 
 [languages]
 [languages.en]
-languageName = "English"
-weight = 1
+  languageName = "English"
+  weight = 1
 
 [languages.de]
-languageName = "Deutsch"
-weight = 2
-title = "Dimension"
-description = '<!--[-->Human body data for design and research.<!--]--><br />'
+  languageName = "Deutsch"
+  weight = 2
+  title = "Dimension"
+  description = '<!--[-->Human body data for design and research.<!--]--><br />'
