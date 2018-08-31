@@ -16,16 +16,15 @@ draft = false
 		<li><input type="submit" value="Send message" class="special" /></li>
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
-	<input type="hidden" name="_next" value="#thankyou" />
+	<input type="hidden" name="_next" value="#contact" />
 	<input type="hidden" name="_subject" value="Contact form entry" />
 	<input type="text" name="_gotcha" style="display:none" />
 </form>
-<span id="contact sent">Thank you for your message</span>
 
 <script>
 $(document).ready(function($) {
     $(function(){
-        if (window.location.search == "#thankyou") {
+        if (window.location.search == "#contact") {
         	$('#contactform').hide();
         	$('#contactformsent').show();
         } else {
