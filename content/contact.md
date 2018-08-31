@@ -22,8 +22,6 @@ draft = false
 </form>
 
 <script>
-ga('set', 'page', '/#contact.html');
-ga('send', 'pageview');
 
 $(document).ready(function($) {
     $(function(){
