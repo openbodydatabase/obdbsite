@@ -13,8 +13,7 @@ draft = false
 		<input type="email" id="email" name="email" placeholder="Email">
 	</div>
 	<ul class="actions">
-		<li><input type="submit" value="Send message" class="special" /></li>
-		<li><input type="reset" value="Reset" /></li>
+		<li><input type="submit" value="Subscribe" class="special" /></li>
 	</ul>
 	<input type="hidden" name="_next" value="#thankyou" />
 	<input type="hidden" name="_subject" value="Contact form entry" />
