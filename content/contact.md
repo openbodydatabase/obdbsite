@@ -7,10 +7,10 @@ draft = false
 
 <form id="contactform" method="post" action="https://formspree.io/contact@obdb.org">
 	<div class="field half first">
-		<input type="text" name="name" id="name" placeholder="Name"/>
+		<input type="text" name="name" id="name" placeholder="Name" required>
 	</div>
 	<div class="field half">
-		<input type="email" id="email" name="email" placeholder="Email">
+		<input type="email" id="email" name="email" placeholder="Email" required>
 	</div>
 	<ul class="actions">
 		<li><input type="submit" value="Subscribe" class="special" /></li>
