@@ -1,0 +1,24 @@
+language: python
+before_install:
+- echo -e "machine github.com\n  login $GITHUB_TOKEN" > ~/.netrc
+
+install:
+#should periodically check HUGO version
+- wget https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Linux-64bit.deb
+- sudo dpkg -i hugo*.deb
+
+before_script:
+- cd public
+- git checkout master
+- cd ..
+
+script:
+- hugo
+
+after_script:
+- echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+- cd public
+- git add .
+- git commit -m "commit from travis"
+- git push origin master
+- cd ..
